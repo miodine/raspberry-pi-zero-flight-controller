@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e36e45b5-99e6-4a8b-bf68-61244086802a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 24.765 20.447) (size 35.179 36.83) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000062c8e71d)
+    (property "Sheetname" "shield_pins" (at 24.765 19.7354 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "circuit_diagrams/main_shield_pins.kicad_sch" (at 24.765 57.8616 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "board_layout"
+        (path "/e36e45b5-99e6-4a8b-bf68-61244086802a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 77.47 20.32) (size 34.29 37.592) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000062c99cca)
+    (property "Sheetname" "board_sensors" (at 77.47 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "circuit_diagrams/onboard_sensors.kicad_sch" (at 77.47 58.4966 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "board_layout"
+        (path "/e36e45b5-99e6-4a8b-bf68-61244086802a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 132.588 21.59) (size 37.084 37.592) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000062caee1a)
+    (property "Sheetname" "core_interfaces" (at 132.588 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "circuit_diagrams/actuator_interfaces.kicad_sch" (at 132.588 59.7666 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "board_layout"
+        (path "/e36e45b5-99e6-4a8b-bf68-61244086802a" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

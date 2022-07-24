@@ -1,0 +1,4 @@
+
+*.lck
+*.kicad_prl
+src/board_layout-backups/board_layout-2024-12-29_124838.zip
