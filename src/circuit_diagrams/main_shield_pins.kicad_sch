@@ -761,7 +761,7 @@
     (property "Reference" "J7" (at 154.178 49.8602 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_02x20_Odd_Even" (at 154.178 52.1716 0)
+    (property "Value" "raspberry_pi_zero_connector" (at 154.178 52.1716 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (at 152.908 78.232 0)
